@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="272dp"
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/salonigupta"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="112dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:text="Saloni Gupta +91-8052029585
+2200290110139 salonigupta8052@gmail.com
+Bachelor of Technology saloni.2226csit1027@kiet.edu
+in Computer Science and Information Technology https://github.com/github5888
+KIET Group of Institutions www.linkedin.com/in/saloni-gupta-3b2323265
+Education
+Degree Institute Board / University CGPA/Percentage Year
+B.Tech CSIT KIET Group Of Institutions KIET 8.00 (Till 2nd Sem) 2022-2026
+Senior Secondary Deoria Senior Secondary School CBSE 85% 2022
+Matriculation Bhagini Nivedita Saraswati Balika Vidya Mandir CBSE 89% 2020
+Projects
+• Platform offering service website Mar 2024
+• login and splash screen app
+KTS club github8052
+Technical Skills
+• Programming Languages: Java, Python,Kotlin
+• Tools and Frameworks: Jupyter, Visual Studio , intellij,Android stdio
+• Android Development: Kotlin
+• Operating Systems:Window
+Key courses taken
+• CSE  Maths: Introduction to C/C++, Object Oriented Programming in C++, Data Structures and Algorithms
+• Computer Science: discrete, COA, UHV,Web desining
+Certifications
+• Full-Stack Web Developer Linkedln Learning
+• Android App developer Acmegrade
+• Javascript Cisco Networking Academy
+• Coding competition Hacker Rank
+Positions of Responsibility
+• Member,KTS Club , KIET
+Learning Android Development
+Achievements
+– Achievement 1, Earned Newbie badge on unstop 2024
+– Achievement 2,34 rank in coding competition 2023
+Extracurriculars
+– Student Volunteer, KTS CLUB MEMBER
+Last updated: January 18, 2024"
+        />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/salonigupta"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+
+
+
+</LinearLayout>
